@@ -24,7 +24,7 @@ def run_process(process_name, command):
 
 def main():
     if len(sys.argv) != 3:
-        print("Uso: python3 monitoreo.py <nombre_del_proceso> <comando>")
+        print("Uso: python3 monitoreo_proceso.py <nombre_del_proceso> <comando>")
         sys.exit(1)
 
     process_name = sys.argv[1]
